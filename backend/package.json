@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "migrate": "npx prisma migrate dev",
+    "generate": "npx prisma generate",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.19.0",
+    "apollo-server": "^2.21.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "prisma": "^2.19.0"
+  }
+}
